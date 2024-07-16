@@ -55,7 +55,7 @@ int main(void)
 		if (idx <= N)
 			count[i] = count[idx] + P[i];
 
-//어차피 뒤에서부터 오는 거라 뒤에서 더 큰 수로 가는 방법이 있으면 며칠 쉬 거기부터 가는 게 좋다.
+//어차피 뒤에서부터 오는 거라 뒤에서 더 큰 수로 가는 방법이 있으면 며칠 쉬고 거기부터 가는 게 이득이다.
 		if (count[i] > max)
 			max = count[i];
 		else 
